@@ -1,10 +1,10 @@
 {
   "_manifest" : {
-    "name": "Fast Scrapper",
-    "id": "fast.scrapper",
-    "version": 61,
+    "name": "Fast Scraper",
+    "id": "fast.scraper",
+    "version": 1,
     "classPath": "",
-    "permaUrl": "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/openscraper.json"
+    "permaUrl": "https://raw.githubusercontent.com/cesarcassio/syncrapper/main/syncraper.json"
   },
     "torrentapi": {
         "name": "RARBG",
