@@ -1,7 +1,7 @@
 {
-  "name": "Sample Package",
-  "id": "an.universally.unique.id.to.identify.your.package",
+  "name": "Fast Express",
+  "id": "fast.express",
   "version": 1,
-  "url": "https://example.com/manifest.json",
-  "type": "kosmos"
+  "url": "https://raw.githubusercontent.com/cesarcassio/syncraper/main/manifest.json",
+  "type": "express"
 }
