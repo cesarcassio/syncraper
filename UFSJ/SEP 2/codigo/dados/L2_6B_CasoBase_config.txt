@@ -1,0 +1,5 @@
+
+R138=[1,2,3,4,5,6]
+
+#Este arquivo serve para listar as regioes e suas respectivas barras, caso vazio, todas as barras serão configuradas como 138kV
+#OBS: O código considera apenas as barras existentes em DBAR, adicionar outras não ira quebrar o código

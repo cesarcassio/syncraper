@@ -1,0 +1,14 @@
+Instruções de uso:
+- O arquivo contendo os dados deve estar na mesma pasta que o código.
+- O nome do arquivo deve ser inserido na linha 22 do arquivo main.py. Exemplo:
+
+DBAR, DCIR, savepath = dados("dados_sistema13B_EC2_CasoBase.txt")
+
+- Para rodar o código, pasta executar o arquivo main.py
+- Será gerado 3 arquivos:
+nome_do_arquivo_relatorio.txt #contendo o relatório de geração, tensão, fase, fluxo de potência do circuito e informações de violações de limites
+
+nome_do_arquivo_relatorioDBAR.csv #csv já com virgula na casa decimal, contendo na tabela informações de geração, tensão e fase
+
+nome_do_arquivo_relatorioFluxo.csv #csv já com virgula na casa decimal, contendo na tabela informações sobre o fluxo de potência
+

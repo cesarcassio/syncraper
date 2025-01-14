@@ -1,0 +1,3 @@
+# Ignorar códigos de erro
+ignore = ["F403", "F405"]
+

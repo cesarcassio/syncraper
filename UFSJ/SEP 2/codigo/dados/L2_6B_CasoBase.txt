@@ -1,0 +1,31 @@
+DBAR
+x---x x-----x x-----x x-----x x---x x------x x------x x-------x x-------x x-------x x-------x
+BARRA  PD(PU)  QD(PU) Bsh(PU)  TIPO  Vesp(PU) Oesp( ) PGesp(PU) Cus($/MW) CGmin(PU) CGmax(PU)
+   01       0       0    0.00    SW   1.0500     0.00         0     00.00      0.00      1.20
+   02       0       0    0.00    PV   1.0300     0.00      1.00     00.00      0.00      1.20
+   03       0       0    0.00    PV   1.0000     0.00      0.90     00.00      0.00      1.20
+   04  0.7000  0.2500    0.00    PQ   1.0000     0.00         0     00.00      0.00      1.20
+   05  0.9000  0.4000    0.20    PQ   1.0000     0.00         0     00.00      0.00      1.20
+   06  0.8500  0.3500    0.00    PQ   1.0000     0.00         0     00.00      0.00      1.20
+####
+
+DCIR
+x---x x---x x---x x------x x------x x-------x x------x x--------x x-----------x  x------x
+ BDE  BPARA  NCIR  RES(PU) REAT(PU) SUCsh(PU)  TAP(PU) DEF(GRAUS) LIG(L)DESL(D)   CAP(PU)
+   01    02    01   0.0400   0.2000    0.0400     1.00      0.000             L      0.50
+   01    04    02   0.0400   0.2000    0.0200     1.00      0.000             L      0.50
+   01    05    03   0.0600   0.3000    0.0000     1.00      0.000             L      0.50
+   02    03    04   0.0500   0.2500    0.0000     1.00      0.000             L      0.40
+   02    04    05   0.0200   0.1000    0.0000     1.00      0.000             L      0.75
+   02    05    06   0.0600   0.3000    0.0000     1.00      0.000             L      0.75
+   02    06    07   0.0400   0.2000    0.0000     1.00      0.000             D      0.75
+   03    05    08   0.0500   0.2600    0.0000     1.00      0.000             L      0.75
+   03    06    09   0.0200   0.1000    0.0000     1.00      0.000             D      0.75
+   04    05    10   0.0800   0.4000    0.0000     1.00      0.000             L      0.40
+   05    06    11   0.0600   0.3000    0.0000     1.00      0.000             L      0.40   
+####
+
+OBS.:
+01 - Na exist ncia de mais de um circuito entre duas barras, cada um deve ser inserido em DCIR separadamente.
+02 - A sucept ncia shunt da barra (Bsh) deve ser inserida como: + (positiva) para C e -(negativa) para L.
+03 - A sucept ncia shunt do circuito (SUCsh) de DCIR   a total do circuito.

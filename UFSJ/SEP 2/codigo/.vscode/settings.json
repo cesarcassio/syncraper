@@ -1,0 +1,8 @@
+{
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showCustomcolors": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "git.ignoreLimitWarning": true
+}
